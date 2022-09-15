@@ -10,5 +10,14 @@
     "company": "SABRE",
     "contactName": "Carlos Pereira",
     "website": "sabre.com"
+  },
+  "extensions": {
+    "dynamo.airavailability:beforeAirAvailability": [
+      {
+        "services": [
+          "com-example-redapp-assessment-web-module-BeforeAirAvailabilityExtensionService"
+        ]
+      }
+    ]
   }
 }

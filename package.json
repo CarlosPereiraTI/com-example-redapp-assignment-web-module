@@ -17,7 +17,9 @@
       "sabre-ngv-core": "*",
       "sabre-ngv-redAppSidePanel": "*",
       "sabre-ngv-xp": "*",
-      "sabre-ngv-commsg": "*"
+      "sabre-ngv-commsg": "*",
+      "sabre-ngv-extensionPoints": "*",
+      "sabre-ngv-pos-cdm": "*"
     },
     "concierge_version_min": "6.1.0"
   }

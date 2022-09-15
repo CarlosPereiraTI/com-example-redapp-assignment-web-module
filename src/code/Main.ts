@@ -3,7 +3,9 @@ import { ICommandMessageService } from 'sabre-ngv-commsg/services/ICommandMessag
 import { RedAppSidePanelButton } from 'sabre-ngv-redAppSidePanel/models/RedAppSidePanelButton';
 import { RedAppSidePanelConfig } from 'sabre-ngv-xp/configs/RedAppSidePanelConfig';
 import { ExtensionPointService } from 'sabre-ngv-xp/services/ExtensionPointService';
-import { getService } from './Context';
+import { getService, registerService } from './Context';
+import { BeforeAirAvailabilityExtensionService } from './services/BeforeAirAvailabilityExtensionService';
+
 
 export class Main extends Module {
     init(): void {
@@ -11,8 +13,16 @@ export class Main extends Module {
         // initialize your module here
 
         this.registerWorkflowsButton();
+        this.registerServices();
+
+        
 
 
+    }
+
+
+    private registerServices(): void {
+        registerService(BeforeAirAvailabilityExtensionService);
     }
 
     private registerWorkflowsButton(): void {
@@ -38,4 +48,6 @@ export class Main extends Module {
         // Sending air availability search from Las Vegas to Los Angeles
         await commandMessageService.send('1LASLAX');
     }
+
+    
 }
