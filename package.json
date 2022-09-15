@@ -14,7 +14,10 @@
   "ngv": {
     "buildDependencies": {
       "sabre-ngv-app": "*",
-      "sabre-ngv-core": "*"
+      "sabre-ngv-core": "*",
+      "sabre-ngv-redAppSidePanel": "*",
+      "sabre-ngv-xp": "*",
+      "sabre-ngv-commsg": "*"
     },
     "concierge_version_min": "6.1.0"
   }
