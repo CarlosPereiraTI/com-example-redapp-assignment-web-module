@@ -1,0 +1,21 @@
+{
+  "name": "com-example-redapp-assignment-web-module-src",
+  "version": "1.0.0",
+  "description": "NGV module",
+  "author": {
+    "name": "Carlos Pereira"
+  },
+  "contributors": [],
+  "private": true,
+  "license": "LicenseRef-LICENSE",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "ngv": {
+    "buildDependencies": {
+      "sabre-ngv-app": "*",
+      "sabre-ngv-core": "*"
+    },
+    "concierge_version_min": "6.1.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "com-example-redapp-assignment-web-module",
+  "redAppId": "n/a",
+  "bundleSymbolicName": "com.example.redapp.assignment",
+  "bundleName": "Example Red App Assignment",
+  "contactDetails": {
+    "author": "Carlos Pereira",
+    "email": "carlos.pereira@sabre.com",
+    "phoneNumber": "098716142",
+    "company": "SABRE",
+    "contactName": "Carlos Pereira",
+    "website": "sabre.com"
+  }
+}
